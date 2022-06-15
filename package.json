@@ -1,8 +1,8 @@
 {
-  "name": "nft-api",
+  "name": "pen-x-app-api",
   "version": "0.1.0",
-  "description": "NFT API",
-  "main": "app.ts",
+  "description": "REST APIs for Pen-X App",
+  "main": "server.ts",
   "directories": {
     "test": "test"
   },

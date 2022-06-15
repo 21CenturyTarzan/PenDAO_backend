@@ -1,4 +1,5 @@
 # backend - Fastify
+*Warning: Please deploy the smart contract with your test wallet and change the contract address. Existing contract owner is unipine.
 
 ## Set up
 ### Install the node_modules

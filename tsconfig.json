@@ -7,9 +7,15 @@
     "extends": "fastify-tsconfig",
     "compilerOptions": {
         "outDir": "dist",
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "strict": false,
+        "resolveJsonModule": true,
         "esModuleInterop": true
     },
     "include": [
         "src/**/*.ts"
-    ]
+    ],
+    "exclude": ["node_modules"]
 }

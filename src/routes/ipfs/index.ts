@@ -44,8 +44,8 @@ const ipfs: FastifyPluginAsync = async (fastify, _opts): Promise<void> => {
     }
   });
 
-  fastify.post("/upload", async function (req, reply) {
-    const { schedule, created, due, amount, workers, status } = req.body as any;
+  fastify.post("/upload", async function (_request, reply) {
+    const { schedule, created, due, amount, workers, status } = _request.body as any;
 
     const _ipfs = await client.add(JSON.stringify({
       schedule: schedule.value,
